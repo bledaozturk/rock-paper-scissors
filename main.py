@@ -8,7 +8,7 @@ print("3) ✌️")
 
 player = int(input("Select a number between 1 and 3: "))
 
-def yourGame():
+def rps_game():
     if player < 1 or player > 3:
         print("Invalid input")
     elif player == 1 and computer == 2 or player == 2 and computer == 3 or player == 3 and computer == 1:
@@ -21,4 +21,4 @@ def yourGame():
         print("Repeat!")
         print("Computer chose", computer)
 
-yourGame()
+rps_game()
