@@ -9,6 +9,7 @@ print("3) ✌️")
 player = int(input("Select a number between 1 and 3: "))
 
 def rps_game():
+    # Determine the outcome by comparing player and computer choices using standard RPS win conditions.
     if player < 1 or player > 3:
         print("Invalid input")
     elif player == 1 and computer == 2 or player == 2 and computer == 3 or player == 3 and computer == 1:
